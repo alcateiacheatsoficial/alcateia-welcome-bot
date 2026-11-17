@@ -39,8 +39,8 @@ async def on_member_join(member: discord.Member):
         return
 
     message = (
-        f"🐺 Bem-vindo à matilha, {member.mention}!\\n"
-        f"Você acaba de chegar à **{SERVER_NAME}**.\\n"
+        f"🐺 Bem-vindo à matilha, {member.mention}!\n"
+        f"Você acaba de chegar à **{SERVER_NAME}**.\n"
         "Leia as regras e aproveite o servidor! 🐺"
     )
     try:
